@@ -125,5 +125,9 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
 # summernote
-SUMMERNOTE_CONFIG = {}
+SUMMERNOTE_CONFIG = {
 
+    # You can disable file upload feature.
+    'disable_upload': True,
+
+}
